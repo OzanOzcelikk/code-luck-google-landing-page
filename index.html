@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="left">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </div>
+        <div id="right">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <div id="apps">
+            <img src="./images/appicon.png" alt="" />
+          </div>
+          <a href="#"><button>Sıgn In</button></a>
+        </div>
+      </header>
+      <main>
+        <div id="google"></div>
+        <div class="search">
+          <div id="mag"></div>
+          <div id="mic"></div>
+          <input type="search" id="search" />
+        </div>
+        <div class="buttons">
+          <button>Google Search</button>
+          <button>I'm Felling Luckly</button>
+        </div>
+      </main>
+      <footer>
+        <p>Other Languages you can use Googel:<a href="#">English</a></p>
+      </footer>
+    </div>
+    <script>
+      var btn = document.getElementById("mag");
+      var btn2 = document.getElementById("search");
+      btn.onclick = function () {
+        btn2.focus();
+      };
+    </script>
+  </body>
+</html>

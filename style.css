@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 600px
+}
+header{
+    min-width: 600px;
+    padding-top: 15px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+#left{
+    padding-left: 20px;
+    
+    display: inline-block;
+    position: absolute;
+}
+#left a{
+    padding: 15px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 1rem;
+    color: rgba(0,0,0,.87);
+
+}
+
+
+#right{
+    width: 300px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    display: table;
+}
+#right a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 1rem;
+    color: rgba(0,0,0,.87);
+}
+#right button{
+    width: 80px;
+    height: 30px;
+    background-color:#4285F4;
+    color: white;
+    font-size: 1rem;
+    font-weight:500;
+    border:none;
+    border-radius: 4px;
+    padding: 0;
+}
+
+img{
+    height: 30px;
+    
+
+}
+
+#apps {
+    
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 0.5rem;
+    display:table-cell;
+    vertical-align:middle;
+  }
+main{
+    width: 100%;
+    height: 480px;
+    padding-top: 200px;
+}
+footer{
+    width: fit-content;
+    margin: auto;
+    
+}
+#google{
+    width: 350px;
+    height: 118px;
+    background-image: url(./images/googlelogo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.search{
+
+    width: 600px;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    border: 1.5px solid lightgrey;
+}
+input{
+    width: 490px;
+    height: 40px;
+    border: none;
+
+}
+
+input:focus{
+    outline: none;
+}
+#mag{
+    height: 30px;
+    width: 30px;
+    background-image: url(./images/magnifying_glass.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+
+}
+#mic{
+    width: 25px;
+    height: 25px;
+    background-image: url(./images/google_microphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+.buttons{
+    width: 400px;
+    margin: auto;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+.buttons button{
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: rgb(94, 92, 92);
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid darkgray;
+}
+footer p{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
